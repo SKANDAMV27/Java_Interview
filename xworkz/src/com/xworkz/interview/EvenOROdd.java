@@ -5,14 +5,17 @@ import java.util.Scanner;
 public class EvenOROdd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
+
 
         System.out.println("Enter The Number To Check Even Or Odd: ");
 
-        if(num%2 ==0){
-            System.out.println(num+":Number is Even Number");
+        int num = sc.nextInt();
+
+        if(num%2 ==0)//if number is divided be 2
+        {
+            System.out.println(num+":Number is Even Number"); // then number is even
         }else {
-            System.out.println(num+": odd Number");
+            System.out.println(num+": odd Number");//number s odd
         }
     }
 }
