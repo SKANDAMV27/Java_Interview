@@ -8,11 +8,11 @@ public class countTheDigits {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter The Number's To Count: ");
-        int num = scanner.nextInt();
+        long num = scanner.nextLong();
 
-        int sum = 0; //sum from 0
+        long sum = 0; //sum from 0
 
-        int temp = num;// then convert number to temp
+        long temp = num;// then convert number to temp
 
         while (temp>0)//loop until temp become 0
         {
