@@ -6,10 +6,10 @@ public class reverseNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter The Number To Reverse: ");
-        int num= scanner.nextInt();
+        long num= scanner.nextLong();
 
-        int temp = num;
-        int reverse = 0;
+        long temp = num;
+        long reverse = 0;
 
         while (temp>0){
             reverse = reverse*10+temp%10; //build the reverse number
