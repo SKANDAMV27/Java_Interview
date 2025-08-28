@@ -16,7 +16,8 @@ public class palindrom {
             reverse = reverse*10+temp%10; //build the reverse number
             temp/=10; //remove last digits
         }
-        if(num==reverse){
+        if(num==reverse) // if number is equal to reverse
+        {
             System.out.println(num+"This Is Palindram");
         }
         else{
