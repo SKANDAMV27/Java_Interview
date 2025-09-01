@@ -1,0 +1,22 @@
+String
+
+    *   String is an Class.
+    *   It is an sequence of characture.
+    *   String is an Immutable (once we create the string then it cannot be change).
+    *   It Stored in String constant Pool.
+
+
+StringBuilder
+
+    *   StringBuilder is an Class in Java in java.util package.
+    *   It is an Mutable (Can modify the content without creating an new object).
+    *   Faster Then StringBuffer( Because its not synchronices).
+    *   It used when we want to modify lot of content in single-threaded program.
+
+
+StringBuffer
+
+    *   StringBuffer is an Class in Java in java.util package.
+    *   It is an mutable(can modify the data without creating an new object).
+    *   It is Slower then StringBuilder(because of the synchronism).
+    *   It is used in multiple-thread.
