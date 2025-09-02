@@ -8,7 +8,7 @@ public class LeapYear {
         System.out.println("Enter The Year: ");
         int year = scanner.nextInt();
 
-        if((year%4==0 && year%100!=0)||(year%400==0)) // leap Year come at the Four years once
+        if((year%4==0 && year%100!=0)||(year%400==0)) // leap Year come at the FiveStar years once
         {
             System.out.println(year+" :Leap Year");
         }
