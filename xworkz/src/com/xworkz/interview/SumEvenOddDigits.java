@@ -13,7 +13,8 @@ public class SumEvenOddDigits {
 
         int temp = num;
 
-        while(temp>0){
+        while(temp>0)
+        {
             int sum = temp%10;
             if(sum%2==0){
                 even +=sum;

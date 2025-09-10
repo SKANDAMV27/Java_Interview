@@ -7,11 +7,12 @@ public class HarshedNumber {
         System.out.println("Enter The Harshed Number");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-//        int num = 45;
+//        45;
         int sum =0;
         int temp = num;
 
-        while(temp>0){
+        while(temp>0)
+        {
             sum += temp%10;
             temp/=10;
         }

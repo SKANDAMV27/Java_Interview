@@ -5,7 +5,7 @@ public class ReverseTheWorld {
         String input = "Java Programming Language";
         System.out.println("Original String: " + input);
 
-        // 👇 Here we call the reverseWordsManual method
+        // Here we call the reverseWordsManual method
         String reversed = reverseWordsManual(input);
 
         System.out.println("Reversed Each Word: " + reversed);

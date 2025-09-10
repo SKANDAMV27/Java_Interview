@@ -19,7 +19,7 @@ public class countVowlesAndConsonats {
                     }
                 }
             }
-            String[] world = str.trim().split("\\s+");
+            String[] world = str.trim().split("");
             int worldCount = world.length;
         System.out.println("Vowles: "+vowles);
         System.out.println("Consonant: "+consonant);
